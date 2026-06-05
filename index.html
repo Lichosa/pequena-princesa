@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Pequena Princesa | Cuidado Infantojuvenil</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Hospital Pequena Princesa Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#especialidades">Especialidades</a></li>
+                <li><a href="#estrutura">Estrutura</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content animate-fade-in">
+            <h1>Hospital Pequena Princesa: <br><span>O coração do cuidado infantojuvenil</span></h1>
+            <p>O primeiro hospital do Paraná especializado no atendimento odontológico, psicológico e pediátrico infantojuvenil.</p>
+            <a href="#contato" class="btn-cta">Agende uma Consulta</a>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="sobre-grid">
+                <div class="sobre-text animate-slide-up">
+                    <h2>Excelência e Humanização</h2>
+                    <p>No Hospital Pequena Princesa, entendemos que cuidar de uma criança exige mais do que técnica: exige amor, paciência e um ambiente que a faça se sentir segura.</p>
+                    <p>Nossa missão é oferecer um atendimento humanizado, focado no bem-estar físico e emocional de bebês, crianças e adolescentes, com uma abordagem multidisciplinar única no Paraná.</p>
+                </div>
+                <div class="sobre-img animate-fade-in">
+                    <img src="sala-espera.jpeg" alt="Interior do Hospital" class="rounded-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Especialidades -->
+    <section id="especialidades" class="especialidades">
+        <div class="container">
+            <h2 class="section-title">Nossas Especialidades</h2>
+            <div class="cards-grid">
+                <div class="card animate-slide-up">
+                    <i class="fas fa-stethscope icon"></i>
+                    <h3>Pediatria</h3>
+                    <p>Acompanhamento integral do crescimento e desenvolvimento infantil.</p>
+                </div>
+                <div class="card animate-slide-up">
+                    <i class="fas fa-tooth icon"></i>
+                    <h3>Odontologia Infantil</h3>
+                    <p>Cuidado especializado para sorrisos saudáveis desde o primeiro dente.</p>
+                </div>
+                <div class="card animate-slide-up">
+                    <i class="fas fa-brain icon"></i>
+                    <h3>Psicologia Infantil</h3>
+                    <p>Suporte emocional especializado para os desafios da infância e adolescência.</p>
+                </div>
+                <div class="card animate-slide-up">
+                    <i class="fas fa-users-cog icon"></i>
+                    <h3>Atendimento Multidisciplinar</h3>
+                    <p>Equipes integradas para um diagnóstico e tratamento completo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estrutura / Galeria -->
+    <section id="estrutura" class="estrutura">
+        <div class="container">
+            <h2 class="section-title">Nossa Estrutura</h2>
+            <p class="section-subtitle">Ambientes projetados para acolher e encantar.</p>
+            <div class="gallery">
+                <div class="gallery-item animate-fade-in">
+                    <img src="recepcao.jpeg" alt="Recepção Hospital">
+                    <div class="gallery-hover"><span>Recepção Acolhedora</span></div>
+                </div>
+                <div class="gallery-item animate-fade-in">
+                    <img src="sala-espera.jpeg" alt="Espaço de Espera">
+                    <div class="gallery-hover"><span>Ambiente Lúdico</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais -->
+    <section class="diferenciais">
+        <div class="container">
+            <div class="diferenciais-grid">
+                <div class="dif-item">
+                    <i class="fas fa-heart"></i>
+                    <h4>Atendimento Humanizado</h4>
+                </div>
+                <div class="dif-item">
+                    <i class="fas fa-user-md"></i>
+                    <h4>Equipe Especializada</h4>
+                </div>
+                <div class="dif-item">
+                    <i class="fas fa-home"></i>
+                    <h4>Ambiente Acolhedor</h4>
+                </div>
+                <div class="dif-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>Tecnologia e Segurança</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <div class="contato-wrapper">
+                <div class="contato-info">
+                    <h2>Fale Conosco</h2>
+                    <p>Estamos prontos para atender sua família com todo carinho.</p>
+                    <div class="info-item"><i class="fas fa-phone"></i> (41) 0000-0000</div>
+                    <div class="info-item"><i class="fas fa-map-marker-alt"></i> Curitiba, Paraná</div>
+                </div>
+                <form id="form-contato" class="form-contato">
+                    <div class="form-group">
+                        <input type="text" id="nome" placeholder="Seu Nome Completo" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Seu Melhor E-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="telefone" placeholder="Telefone" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="mensagem" placeholder="Como podemos ajudar?" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Enviar Mensagem</button>
+                    <div id="form-feedback"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="Hospital Pequena Princesa Logo">
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Hospital Pequena Princesa. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
